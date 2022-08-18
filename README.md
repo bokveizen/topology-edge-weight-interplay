@@ -39,9 +39,9 @@ Source:
 
 The code consists of the following parts, where each part is covered by a jupyter notebook: 
 
-- 0. data preprocessing @ *0-preprocessing.ipynb*
-- 1. observations @ *1-observations.ipynb* 
-- 2. experiments @ *2-experiments.ipynb*
+- [0.] data preprocessing @ *0-preprocessing.ipynb*
+- [1.] observations @ *1-observations.ipynb* 
+- [2.] experiments @ *2-experiments.ipynb*
  
 
 ### 0. data preprocessing
