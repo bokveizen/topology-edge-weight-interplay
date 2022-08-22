@@ -8,5 +8,5 @@ numpy == 1.22.4
 scikit_learn == 1.0.2
 scikit_network == 0.26.0
 scipy == 1.7.1
-torch == 1.10.2
+torch == 1.8.1+cu111
 tqdm == 4.62.2
