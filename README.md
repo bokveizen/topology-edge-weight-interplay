@@ -23,7 +23,7 @@ In our experiments, we extract the largest connected component from each dataset
 
 Source:
 
-- OF (OF): [http://opsahl.co.uk/tnet/datasets/OF\\_one-mode\\_weightedmsg\\_sum.txt](http://opsahl.co.uk/tnet/datasets/OF_one-mode_weightedmsg_sum.txt)
+- OF (OF): [http://opsahl.co.uk/tnet/datasets/OF_one-mode_weightedmsg_sum.txt](http://opsahl.co.uk/tnet/datasets/OF_one-mode_weightedmsg_sum.txt)
 - openflights (FL): [http://opsahl.co.uk/tnet/datasets/openflights.txt](http://opsahl.co.uk/tnet/datasets/openflights.txt)
 - threads-ask-ubuntu (th-UB): [https://www.cs.cornell.edu/~arb/data/threads-ask-ubuntu/](https://www.cs.cornell.edu/~arb/data/threads-ask-ubuntu/)
 - threads-math-sx (th-MA): [https://www.cs.cornell.edu/~arb/data/threads-math-sx/](https://www.cs.cornell.edu/~arb/data/threads-math-sx/)
