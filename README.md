@@ -10,7 +10,7 @@ Through extensive experiments on eleven real-world graphs, we show that PEAR gen
 Note: if a preview of the supplementary materials PDF file does not appear properly, please download the file.
 
 ## Requirements
-All python packages required for this repo are included in the *requirements* text file. 
+All Python packages required for this repo are included in the *requirements* text file. 
 Please run the following to install them.
 
     pip install -r requirements.txt
@@ -61,7 +61,7 @@ In detail, it contains:
 - Why the number of common neighbors? Computing the Pearson correlation coefficient between the binary indicators of repetition (weight > 1) and the sequence of each edge-metric 
 - Observation 1: adjacency and strongness. Computing the fractions of adjacent pairs and strong edges within each group of pairs/edges sharing c CNs for each number c of CNs and plotting the figures
 - Observation 2: the fractions of strong edges. Computing the fraction of strong edges within each group of edges sharing c CNs for each number c of CNs and plotting the figures
-- Observation 3: a power law across layers. Computing the fractions of strong edges of the edges those without CNs and those of all edges for different layers and plotting the figures
+- Observation 3: a power law across layers. Computing the fractions of strong edges of the edges without CNs and those of all edges for different layers and plotting the figures
 
 ### 2. algorithms experiments
 In this part, we implement the proposed method and the baseline methods,
@@ -69,4 +69,16 @@ and perform the experiments to evaluate the methods.
 In detail, it contains:
 
 - implementing each method
-- analyzing the generated edge weights, especially computing the metrics which measure the distance between the edge weights and the ground-truth ones from difference perspectives
+- analyzing the generated edge weights, especially computing the metrics that measure the distance between the edge weights and the ground-truth ones from different perspectives
+
+### citation
+
+    @article{Bu2023interplay,
+      title={Interplay between topology and edge weights in real-world graphs: concepts, patterns, and an algorithm},
+      author={Bu, Fanchen and Kang, Shinhwan and Shin, Kijung},
+      journal={Data Mining and Knowledge Discovery},
+      year={2023},
+      volume={37},
+      pages={2139 - 2191},
+      publisher={Springer}
+    }
